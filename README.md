@@ -21,7 +21,7 @@ Install the required library `PyPDF2` using pip:
 ```bash
 pip install PyPDF2
 
-## **Usage**
+Usage
 
 Place the PDF file you want to encrypt in your project directory (or provide the full path).
 
@@ -33,7 +33,7 @@ password = "Aditya@123" — change the password to your preferred one.
 
 Run the script. It will generate a new PDF file named encryptedtickets.pdf that is password protected.
 
-**How It Works**
+How It Works
 
 The script reads the original PDF file using PdfReader.
 
@@ -43,7 +43,7 @@ Then it encrypts the new PDF with the provided password.
 
 Finally, it writes the encrypted PDF to disk.
 
-**Output**
+Output
 After running the script, you will get a new file named encryptedtickets.pdf. This file requires the password to be opened, ensuring your PDF content is secure.
 
 Author
