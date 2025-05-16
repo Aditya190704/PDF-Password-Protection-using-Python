@@ -29,7 +29,7 @@ Open the Python script and update the following variables if needed:
 
 file_pdf = PdfReader('imp_pdf.pdf') — change 'imp_pdf.pdf' to your PDF filename.
 
-password = "Aditya@123" — change the password to your preferred one.
+password = "Aditya@1234" — change the password to your preferred one.
 
 Run the script. It will generate a new PDF file named encryptedtickets.pdf that is password protected.
 
