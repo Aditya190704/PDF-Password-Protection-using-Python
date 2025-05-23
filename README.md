@@ -1,52 +1,53 @@
-# PDF Password Protection Using Python
-This project demonstrates how to add password protection to a PDF file programmatically using Python. It uses the `PyPDF2` library to read, encrypt, and save PDF files securely with a password.
+# 🔐 PDF Protection Web App
+
+A simple yet powerful **PDF Encryption Tool** built with **Python Flask** and a responsive **HTML/CSS frontend**. Secure your PDF files with a custom password and download the encrypted version instantly.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Open and read an existing PDF file
-- Encrypt the PDF with a user-defined password
-- Save the encrypted PDF as a new file
-- Simple and efficient Python script
+- 📤 **PDF Upload:** Upload any PDF file through a simple web interface.
+- 🔑 **Password Protection:** Enter a custom password to secure your PDF.
+- 🔒 **PDF Encryption:** Uses PyPDF2 to apply password protection.
+- 📥 **Download Encrypted PDF:** Instantly download the secured file.
+- 🌐 **User-Friendly UI:** Clean and responsive frontend built with HTML and CSS.
+- ⚙️ **Flask Backend:** Lightweight and efficient backend built using Flask.
+- 📁 **Organized File Handling:** Uploaded and encrypted files are saved in the `uploads` directory.
 
 ---
 
-## Installation
+## 🛠️ Tech Stack
 
-Make sure you have Python installed (version 3.6 or above recommended).
+| Layer       | Technology        |
+|-------------|-------------------|
+| 🖥️ Frontend  | HTML, CSS         |
+| ⚙️ Backend   | Python (Flask)    |
+| 📚 PDF Lib   | PyPDF2            |
+| 🧪 Server    | Flask Dev Server  |
 
-Install the required library `PyPDF2` using pip:
+---
 
-```bash
-pip install PyPDF2
+## 🌟 How it works
+📤 Upload your PDF using the web browser interface
+🔑 Enter a password to protect the file
+🛠️ Backend uses PyPDF2 to encrypt the file
+📥 Download the password-protected PDF
 
-Usage
+ ## 🛠 Install dependencies:
+ pip install flask
+ pip install pyPDF2
 
-Place the PDF file you want to encrypt in your project directory (or provide the full path).
+ ## 🌟 Run the app:
+ python app.py
 
-Open the Python script and update the following variables if needed:
 
-file_pdf = PdfReader('imp_pdf.pdf') — change 'imp_pdf.pdf' to your PDF filename.
+## 🌟 Contributors
+This project is a collaboration between:
 
-password = "Aditya@1234" — change the password to your preferred one.
+Abhay Tale — https://github.com/abhay9561 | abhaytale7@gmail.com
 
-Run the script. It will generate a new PDF file named encryptedtickets.pdf that is password protected.
+Aditya Barhate — https://github.com/Aditya190704 | adityabarhate18@gmail.com
 
-How It Works
 
-The script reads the original PDF file using PdfReader.
+ 
 
-It iterates through all pages and adds them to a new PdfWriter object.
-
-Then it encrypts the new PDF with the provided password.
-
-Finally, it writes the encrypted PDF to disk.
-
-Output
-After running the script, you will get a new file named encryptedtickets.pdf. This file requires the password to be opened, ensuring your PDF content is secure.
-
-Author
-Aditya Barhate
-Email: adityabarhate18@gmail.com
-GitHub: adiiiii19
