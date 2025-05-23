@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Password Protector</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="animated-title">PDF Password Protector 🔒</h1>
+    <form action="/protect" method="post" enctype="multipart/form-data">
+      <input type="file" name="pdfFile" accept="application/pdf" required>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <button type="submit">Protect PDF</button>
+    </form>
+  </div>
+</body>
+</html>
